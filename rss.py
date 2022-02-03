@@ -31,7 +31,7 @@ async def main():
             embed.set_description(text)
             webhook.add_embed(embed)
             webhook.avatar_url = "https://cdn.discordapp.com/attachments/746444509226991686/937884437482455060/" \
-                                 "Screenshot_2022-01-15_163712.png"
+                                 "Screenshot_2022-01-15_163712.png"  # url
             webhook.execute()
 
 if __name__ == "__main__":
