@@ -16,4 +16,5 @@ def feed():
         for entry in raw_feed.entries:
             if entry["id"] not in thread_ids and int(entry["slash_comments"]) == 0:
                 filtered_feed.append(entry)
+                print()
         return [filtered_feed, get_list(thread_ids)]
